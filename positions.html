@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Clarabell is always cold</title>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            background: rgb(40, 97, 69);
+            margin: 50px;
+            background-image: url(sttoare.gif);
+        }
+
+        #static {
+            position: static;
+            background: hwb(209 27% 9%);
+            /*default*/
+        }
+
+        #sticky {
+            background: yellow;
+            position: sticky;
+
+        }
+
+        #relative {
+            background: hsl(275, 100%, 25%);
+            position: relative;
+            left: 100px;
+            top: 100px;
+            z-index: -67;
+        }
+
+        #fixed {
+        
+            position: fixed;
+            left: 450px;
+            top: 0px;
+
+        }
+
+        #absolute {
+            background: rgb(15, 58, 178);
+            position: absolute;
+            left: 500px;
+            top: 900px;
+            ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="static"></div>
+    <div id="sticky"></div>
+    <div id="relative"></div>
+    <div id="fixed"></div>
+    <div id="absolute"></div>
+
+    <body>
+
+    </body>
+
+
+</html>
